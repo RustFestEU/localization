@@ -5,13 +5,13 @@
 # Terms, to be used as part of the translations only
 
 -note-some-markdown = Se permite cierto markdown.
--note-most-markdown = Se permite la mayoría de markdown (Tipografía, listas, enlaces, etc.)
+-note-most-markdown = Se permite la mayoría de markdown (tipografía, listas, enlaces, etc.)
 -note-no-markdown = No se permite markdown.
--note-editable = Podrás editar esto más adelante.
+-note-editable = Podrás editar esto antes de publicarlo.
 f-title = Convocatoria de Propuestas RustFest Global 2021
 f-submission-deadline-t = Fecha límite de entrega
 f-submission-deadline =
-    Nota, RustFest Global CFP no tiene fecha límite, la CFP *no cierra*, pero para que tu charla sea considerada para uno de nuestros futuros eventos, tu presentación debería llegarnos 3-4 semanas antes de la fecha del evento.
+    Nota, RustFest Global CFP **no tiene fecha límite**, la CFP *no cierra*, pero para que tu charla sea considerada para uno de nuestros futuros eventos, tu propuesta debería llegarnos 3-4 semanas antes de la fecha del evento.
     
     { "[" }Mira en este enlace las fechas límite para la entrega de CFPs para futuros eventos](
     { $linkUpcomingEvents }
@@ -31,9 +31,10 @@ f-submission-presentation-lang =
     Si planeas presentar en { $currentLang } puedes dejar este campo sin modificar.
     
     Si te gustaría hacer tu presentación en cualquier otro idioma, incluso si no estuvo anteriormente listado, tan solo háznoslo saber aquí.
-    En RustFest queremos hacer que sea posible para todo el mundo mostrar sus ideas y presentar su trabajo de la mejor manera posible, y así asegurarnos de que esas ideas alcanzen el mayor público posible, asi que estamos siempre preparados para apoyar las charlas en un amplio catálogo de idiomas, siempre que así sea posible (ej: a través de subtítulos).
+    En RustFest queremos hacer que sea posible para todo el mundo mostrar sus ideas y presentar su trabajo de la mejor manera posible, y así asegurarnos de que esas ideas alcancen el mayor público posible.
+    Estamos siempre preparados para apoyar las charlas en un amplio catálogo de idiomas, siempre que así sea posible (ej: a través de subtítulos).
     
-    _Feel free to propose multiple languages here (noting the order of your preference), and if accepted we will reach out to discuss the details._
+    Se pueden proponer varios idiomas aquí (teniendo en cuenta el orden de tus preferencias), y si es aceptado, nos pondremos en contacto contigo para planear los detalles.
     
     { "[" }Aprende más sobre el soporte para idiomas de RustFest Global]({ $linkSupportedLanguages })
 f-presentation-format-standard = duración estándar
@@ -54,7 +55,7 @@ f-proposal-summary =
     Una descripción corta/un resumen de tu presentación.
     Dispones de hasta 240 caracteres para proponer tu presentación al comité de CFP y la audiencia.
     
-    Este resumen será utilizado para evaluar tu charla e incluirla en el programa.
+    El { f-proposal-title-t } y { f-proposal-summary-t } serán las primeras impresiones antes el comité de la CFP, y también serán disponibles en el horaria del evento y nuestras redes sociales. Ambos serán los medios mas importantes para dejar una buena impresión tanta a la hora de evaluar tu charla como para la audiencia de la conferencia, una vez sea aceptada.
     
     _{ -note-some-markdown }_  
     _{ -note-editable }_
@@ -75,7 +76,7 @@ None = #f-proposal-audience-beginner-friendly-t =
 None = #f-proposal-audience-some-rust-t =
 None = #f-proposal-audience-advanced-rust-t =
 None = #f-proposal-audience-all-audiences-t =
-f-proposal-notes-t = Comentarios para los organizadores
+f-proposal-notes-t = Comentarios para los organizadores ({ -optional })
 f-proposal-notes =
     Aquí podrás dejar notas o comentarios para los organizadores y el comité de selección.
     
@@ -102,3 +103,35 @@ f-submitter-bio =
     
     _{ -note-most-markdown }_  
     _{ -note-editable }_
+f-contact-email =
+    Te mandaremos una confirmación de tu propuesta que hemos recibido.
+    Los comités te contactaran a tu email con noticias sobre el proceso de selección.
+    Identificándote con tu email, podrás gestionar, revisar el estado de tus propuestas y retirarlas.
+f-proposal-highlight =
+    Si sientes que tu propuesta seria adecuada para un futuro evento, lo puedes indicar aquí para que los organizadores de ese evento lo sepan.
+    Esto nos sera útil para identificar si tu propuesta seria mas adecuada para algunos eventos en particular ante otros.
+    
+    Nota que _esto es solo una sugerencia_. Sea cual sea tu selección, todos los comités tendrán acceso a tu propuesta y podrán decidir incluirla en el programa de su evento. Si no tienes preferencia simplemente deja este campo tal como esta.
+-optional = opcional
+f-manage-t = Subir y gestionar propuestas
+f-manage = Si ya tienes una propuesta en el formato TOML (exportado de esta pagina o con otra conferencia compatible) puedes importar el archivo aquí:
+f-manage-auth = También podrás identificarte con tu dirección de email para gestionar tus propuestas existentes:
+f-manage-download-t = Descargar propuesta
+f-manage-download =
+    Aquí podrás descargar tu propuesta en formato de texto.
+    Esto te podrá ser útil si quisieras terminar y entregar tu propuesta más tarde.
+    
+    Nota que también te enviaremos tu propuesta terminada vía email después de que ya hayas entregado y confirmado tu propuesta a continuación.
+f-form-notes = Todos los campos son obligatorios, excepto los que están marcados como explícitamente "opcional".
+f-manage-download-btn = Descargar propuesta
+f-manage-upload-btn = Subir propuesta
+f-manage-auth-btn = Enviar código
+f-proposal-audience-all-audiences-t = **General** -- ninguna experiencia de programación requerida, una charla para todas las audiencias
+f-proposal-audience-advanced-rust-t = **Rust Avanzado** -- se recomienda un buen conocimiento en Rust y/o programación de sistemas
+f-proposal-audience-some-rust-t = **Rust Básico** -- se recomienda un conocimiento básico de Rust y/o programación de sistemas
+f-proposal-audience-beginner-friendly-t = **Introductorio** -- presentaciones técnicas a nivel básico, se recomienda una cierta experiencia con programación
+f-contact-email-t = Dirección de email
+f-contact-t = Información de contacto
+event-none = Todos
+event-none-summary = Esta propuesta seria adecuada para cualquiera de los futuro eventos.
+f-proposal-highlight-t = Evento sugerido

@@ -1,5 +1,6 @@
 ### CFP Form localization
 
+
 ## Terms, to be used as part of the translations only
 
 -note-some-markdown = Some typographic markdown is allowed.
@@ -11,7 +12,7 @@
 ## CFP form global strings
 
 f-title = RustFest Global 2021 CFP
-f-form-notes = Filling out all fields is required, except for the ones explicitly marked as "optional".
+f-form-notes = Filling out all fields is required, except for those explicitly marked as "optional".
 
 ## Submission deadline
 
@@ -27,16 +28,16 @@ f-submission-deadline =
 
 f-manage-t = Upload & manage proposals
 f-manage = If you already have a proposal in a TOML format (exported from this page or another compatible conference) you can import the file here:
-f-manage-upload-btn = Upload Proposal
+f-manage-upload-btn = Upload proposal
 f-manage-auth = You may also authenticate with your email address to manage your existing submissions:
-f-manage-auth-btn = Send Code
+f-manage-auth-btn = Send code
 f-manage-download-t = Download proposal
 f-manage-download =
     Here you can download your proposal in a text format.
     This may come handy if you want to finish and submit your proposal later.
     
     Note that we will also send you your completed proposal via email after you have submitted and confirmed your submission below.
-f-manage-download-btn = Download Proposal
+f-manage-download-btn = Download proposal
 
 ## Submission detail fields
 
@@ -82,7 +83,7 @@ f-proposal-summary =
     A short description or summary of your session.
     You have up to 240 characters to pitch your proposed session, both for the CFP committee and the conference audience.
     
-    The { f-proposal-title-t } & { f-proposal-summary-t } are the first things seen by the program selection committee, and will also be displayed in the event schedule listings and social media, so these are the most important venues for you to leave an impression both for talk selection and, once your proposal is accepted, for the conference attendees as well.
+    The { f-proposal-title-t } & { f-proposal-summary-t } are the first things seen by the program selection committee, and will also be displayed in the event schedule listings and social media. These are the most valuable venues for you to leave a good impression for talk selection and, if your proposal is accepted, for the conference attendees as well.
     
     _{ -note-some-markdown }_  
     _{ -note-editable }_
@@ -133,12 +134,12 @@ f-submitter-bio =
     
     _{ -note-most-markdown }_  
     _{ -note-editable }_
-f-proposal-highlight-t = Suggested Edition
+f-proposal-highlight-t = Suggested Event
 f-proposal-highlight =
     If you believe your proposal would be a great fit for an upcoming event, here you may highlight it for the organizers of that event.
-    This may be useful when your proposal is better suited for that particular event than the others.
+    This may be useful when your proposal is better suited certain events over others.
     
-    Note that _this is just a recommendation_, regardless of your selection below all teams will have access to your proposal and may choose to include it in their program, so if you have no preference just leave this on the default value.
+    Note that _this is just a recommendation_. Regardless of your selection below, all teams will have access to your proposal and may choose to include it in their program. If you have no preference just leave this on the default value.
 event-none = All
 event-none-summary = This proposal should be a great fit for any of the upcoming events.
 
@@ -148,5 +149,5 @@ f-contact-t = Contact information
 f-contact-email-t = Email address
 f-contact-email =
     We will send you a confirmation of your received proposal.
-    The teams will use your email to contact you about followups and notifications about the selection process.
+    The teams will use your email to contact you with follow-ups and updates on the selection process.
     You will be able to edit, review the status of and retract your proposals by authenticating using this address.
