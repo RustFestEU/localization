@@ -25,7 +25,7 @@ f-submission-lang =
     Aceptamos presentaciones en los idiomas anteriormente listados y todos los miembros del comité CFP que así lo requieran recibirán traducciones para su evaluación.
     Escribir tu presentación en cualquiera de estos idiomas *no afectará* a tus posibilidades de ser seleccionado para dar una charla bajo ningún concepto, asi que tómate total libertad de escoger el idioma con el que más cómodo te sientas.
     
-    { "[" }➡ Aprende más sobre el soporte para idiomas de RustFest Global](https://rustfest.global/cfp#language)
+    { "[" }Aprende más sobre el soporte para idiomas de RustFest Global](https://rustfest.global/cfp#language)
 f-submission-presentation-lang-t = Idioma de la presentación
 f-submission-presentation-lang =
     Si planeas presentar en { $currentLang } puedes dejar este campo sin modificar.
