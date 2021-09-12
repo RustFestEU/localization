@@ -6,9 +6,9 @@ Localizing RustFest & RustFest Global.
 
 English:
 
-- [flaki](https://github.com/flaki)
-- [pilar](https://github.com/tamacodechi)
+- [Flaki](https://github.com/flaki)
+- [Pilar](https://github.com/tamacodechi)
 
 Español
 
-- [pilar](https://github.com/tamacodechi)
+- [Pilar](https://github.com/tamacodechi)
