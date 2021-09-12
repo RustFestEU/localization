@@ -83,7 +83,7 @@ f-proposal-notes =
     _{ -note-most-markdown }_
 f-submitter-t = Sobre ti
 f-submitter-name-t = Nombre
-f-submitter-tagline-t = Eslogan
+f-submitter-tagline-t = Eslogan ({ -optional })
 f-submitter-tagline =
     Un título, eslogan o afiliación organizativa.
     Podrás darle un reconocimiento a tu compañía, especialmente si te apoyaron durante tu presentación, o bien usar tu propio eslogan o reconocimiento.  

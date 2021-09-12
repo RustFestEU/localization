@@ -114,7 +114,7 @@ f-proposal-notes =
 
 f-submitter-t = About you
 f-submitter-name-t = Name
-f-submitter-tagline-t = Tagline
+f-submitter-tagline-t = Tagline ({ -optional })
 f-submitter-tagline =
     Title, tagline or organizational affiliation.  
     Here you may give a shoutout to your employer --- especially if they supported you during the preparation for your session --- or choose your own tagline or shoutout.  
