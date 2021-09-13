@@ -165,9 +165,8 @@ f-submit-status-enter-verification-code =
     
     Type in the code below to submit your proposal:
 
+f-submit-status-success-t = Proposal received!
 f-submit-status-success =
-    __Proposal received!__
-    
     Thank you for your submission, you should receive an email confirmation shortly.
 
 f-submit-btn = Submit proposal
