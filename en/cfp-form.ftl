@@ -151,3 +151,27 @@ f-contact-email =
     We will send you a confirmation of your received proposal.
     The teams will use your email to contact you with follow-ups and updates on the selection process.
     You will be able to edit, review the status of and retract your proposals by authenticating using this address.
+
+
+## Submission-related fields
+
+f-submit-dialog-t = Submit your proposal
+
+f-submit-status-sending-verification = Verifying your email address...
+
+f-submit-status-enter-verification-code =
+    We have sent a unique numeric code to your email address:  
+    __{ $email }__
+    
+    Type in the code below to submit your proposal:
+
+f-submit-status-success =
+    __Proposal received!__
+    
+    Thank you for your submission, you should receive an email confirmation shortly.
+
+f-submit-btn = Submit proposal
+f-submit-confirm-btn = Confirm & submit
+f-cancel-btn = Cancel
+
+f-submit-error-generic = An error occured while trying to submit the proposal. Perhaps try again later?
