@@ -99,14 +99,14 @@ f-submitter-tagline =
     _{ -note-editable }_
 f-submitter-bio-t = Biografía
 f-submitter-bio =
-    Cuéntanos a nosotros y la audiencia sobre ti. Esto estará en la página de las sesiones.
+    Cuéntanos a nosotros y a la audiencia sobre ti. Esto estará en la página de las sesiones.
     
     _{ -note-most-markdown }_  
     _{ -note-editable }_
 f-contact-email =
-    Te mandaremos una confirmación de tu propuesta que hemos recibido.
-    Los comités te contactaran a tu email con noticias sobre el proceso de selección.
-    Identificándote con tu email, podrás gestionar, revisar el estado de tus propuestas y retirarlas.
+    Te mandaremos una confirmación de que tu propuesta ha sido recibida.
+    El comité te contactaran a tu correo electrónico con noticias sobre el proceso de selección.
+    Identificándote con tu correo, podrás gestionar, revisar el estado de tus propuestas y retirarlas.
 f-proposal-highlight =
     Si sientes que tu propuesta seria adecuada para un futuro evento, lo puedes indicar aquí para que los organizadores de ese evento lo sepan.
     Esto nos sera útil para identificar si tu propuesta seria mas adecuada para algunos eventos en particular ante otros.
@@ -130,8 +130,21 @@ f-proposal-audience-all-audiences-t = **General** -- ninguna experiencia de prog
 f-proposal-audience-advanced-rust-t = **Rust Avanzado** -- se recomienda un buen conocimiento en Rust y/o programación de sistemas
 f-proposal-audience-some-rust-t = **Rust Básico** -- se recomienda un conocimiento básico de Rust y/o programación de sistemas
 f-proposal-audience-beginner-friendly-t = **Introductorio** -- presentaciones técnicas a nivel básico, se recomienda una cierta experiencia con programación
-f-contact-email-t = Dirección de email
+f-contact-email-t = Dirección de correo electrónico
 f-contact-t = Información de contacto
 event-none = Todos
-event-none-summary = Esta propuesta seria adecuada para cualquiera de los futuro eventos.
+event-none-summary = Esta propuesta seria adecuada para cualquiera de los futuros eventos.
 f-proposal-highlight-t = Evento sugerido
+f-submit-dialog-t = Envía tu propuesta
+f-submit-status-sending-verification = Verificando tu correo electrónico…
+f-submit-status-enter-verification-code =
+    Hemos enviado un código numérico único a tu correo electrónico:  
+    __{ $email }__
+    
+    Escriba el código a continuación para enviar su propuesta:
+f-submit-status-success-t = ¡Propuesta recibida!
+f-submit-status-success = Gracias por subir tu propuesta, en breve recibirás una confirmación a tu correo.
+f-submit-btn = Envió de propuesta
+f-submit-confirm-btn = Confirmar y subir
+f-cancel-btn = Cancelar
+f-submit-error-generic = Ha ocurrido un error mientras se intentaba subir tu propuesta, puedes intentarlo más tarde.
