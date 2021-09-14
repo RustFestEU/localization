@@ -47,7 +47,7 @@ f-submission-lang =
     Select the language you will be writing your submission in.
     
     Changing the language above changes the language of the instructions on this page.
-    We accept submissions in the provided languages and all CFP-commitee members who require it will receive translations for their evaluation.
+    We accept submissions in the provided languages and all CFP commitee members who require it will receive translations for their evaluation.
     Writing your submission in any of these languages *will not affect* your chances for being selected to speak in any way, so feel free to choose the language you consider yourself to be most comfortable with.
     
     { "[" }Learn more about RustFest Global’s language support]({ $linkSupportedLanguages })
@@ -137,7 +137,7 @@ f-submitter-bio =
 f-proposal-highlight-t = Suggested Event
 f-proposal-highlight =
     If you believe your proposal would be a great fit for an upcoming event, here you may highlight it for the organizers of that event.
-    This may be useful when your proposal is better suited certain events over others.
+    This may be useful when your proposal is better suited for certain events over others.
     
     Note that _this is just a recommendation_. Regardless of your selection below, all teams will have access to your proposal and may choose to include it in their program. If you have no preference just leave this on the default value.
 event-none = All
