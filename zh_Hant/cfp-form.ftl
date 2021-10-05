@@ -101,8 +101,8 @@ f-proposal-summary =
     _{ -note-editable }_
 f-contact-email-t = 電子郵件地址
 f-submit-error-generic = 投稿時發生錯誤。請稍候再試
-f-submission-lang =
-f-submission-presentation-lang =
-f-submitter-tagline-t =
-f-submitter-tagline =
-f-proposal-highlight =
+None = f-submission-lang =
+None = f-submission-presentation-lang =
+None = f-submitter-tagline-t =
+None = f-submitter-tagline =
+None = f-proposal-highlight =
