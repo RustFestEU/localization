@@ -21,25 +21,64 @@ f-proposal-t = 제안서
 f-proposal-summary-t = 간략한 발표 내용
 f-contact-email-t = 이메일 주소
 f-submission-presentation-format-standard-t = { f-presentation-format-standard } (최대 25분)
-f-proposal-audience-beginner-friendly-t =
+None = f-proposal-audience-beginner-friendly-t =
+None = event-none =
+None = f-form-notes =
+None = f-submission-deadline =
+None = f-presentation-format-standard =
+None = f-presentation-format-longform =
+None = f-presentation-format-other =
+None = f-submission-presentation-format-other-t =
+None = f-proposal-audience-t =
+None = f-proposal-audience-some-rust-t =
+None = f-proposal-audience-advanced-rust-t =
+None = f-proposal-audience-all-audiences-t =
+None = f-proposal-notes-t =
+None = f-manage-t =
+None = f-manage =
+None = f-manage-auth =
+None = f-manage-download =
+None = f-submit-btn =
+None = f-submit-confirm-btn =
+None = f-proposal-highlight =
+None = event-none-summary =
+None = f-contact-t =
+None = f-contact-email =
+None = f-submit-dialog-t =
+None = f-submit-status-sending-verification =
+None = f-submit-status-enter-verification-code =
+None = f-submit-status-success-t =
+None = f-submit-status-success =
+None = f-cancel-btn =
+None = f-submission-lang =
+None = f-submission-presentation-lang =
+None = f-submission-presentation-format =
+None = f-proposal-summary =
+None = f-proposal-description =
+None = f-proposal-audience =
+None = f-proposal-notes =
+None = f-submitter-t =
+None = f-submitter-tagline-t =
+None = f-submitter-tagline =
+None = f-submitter-bio-t =
+None = f-submitter-bio =
+None = f-proposal-highlight-t =
+None = f-submit-error-generic =
 event-none =
 f-form-notes =
 f-submission-deadline =
+f-manage-t =
+f-manage =
+f-manage-download =
+f-submit-btn =
+f-submit-confirm-btn =
+f-submission-lang =
 f-presentation-format-standard =
 f-presentation-format-longform =
 f-presentation-format-other =
 f-submission-presentation-format-other-t =
 f-proposal-audience-t =
-f-proposal-audience-some-rust-t =
-f-proposal-audience-advanced-rust-t =
-f-proposal-audience-all-audiences-t =
-f-proposal-notes-t =
-f-manage-t =
-f-manage =
-f-manage-auth =
-f-manage-download =
-f-submit-btn =
-f-submit-confirm-btn =
+f-submission-presentation-format =
 f-proposal-highlight =
 event-none-summary =
 f-contact-t =
@@ -49,13 +88,17 @@ f-submit-status-sending-verification =
 f-submit-status-enter-verification-code =
 f-submit-status-success-t =
 f-submit-status-success =
-f-cancel-btn =
-f-submission-lang =
+f-manage-auth =
 f-submission-presentation-lang =
-f-submission-presentation-format =
 f-proposal-summary =
 f-proposal-description =
 f-proposal-audience =
+f-proposal-audience-beginner-friendly-t =
+f-proposal-audience-some-rust-t =
+f-proposal-audience-advanced-rust-t =
+f-proposal-audience-all-audiences-t =
+f-proposal-notes-t =
+f-cancel-btn =
 f-proposal-notes =
 f-submitter-t =
 f-submitter-tagline-t =
