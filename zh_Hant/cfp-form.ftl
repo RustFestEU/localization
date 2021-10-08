@@ -106,3 +106,8 @@ None = f-submission-presentation-lang =
 None = f-submitter-tagline-t =
 None = f-submitter-tagline =
 None = f-proposal-highlight =
+f-submission-lang =
+f-submission-presentation-lang =
+f-submitter-tagline-t =
+f-submitter-tagline =
+f-proposal-highlight =
