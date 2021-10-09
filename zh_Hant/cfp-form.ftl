@@ -101,7 +101,14 @@ f-proposal-summary =
     _{ -note-editable }_
 f-contact-email-t = 電子郵件地址
 f-submit-error-generic = 投稿時發生錯誤。請稍候再試
-f-submission-lang = ?
+f-submission-lang =
+    請選擇您的稿件欲使用的語言。
+    
+    變更以上語言也將改變本頁之導覽說明。
+    我們將接受您提供的語言之稿件，任何需要翻譯的 CFP 審稿委員將會收到翻譯以便評審。
+    不管您使用哪個語言投稿，它都 *不影響* 您的演講機會，所以請您選擇您最舒適的語言來進行投稿。
+    
+    { "[" }欲知更多關於 RustFest Global 的語言輔助請點此連結。]({ $linkSupportedLanguages })
 f-submission-presentation-lang = ?
 f-submitter-tagline-t = ?
 f-submitter-tagline = ?
