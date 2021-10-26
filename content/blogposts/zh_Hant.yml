@@ -1,1 +1,15 @@
-apac-announcement-2021: 
+apac-announcement-2021: "亞太地區有著數十億的人口、各式各樣的文化還有不少的 Rustaceans。而我們決定在 12 月為您帶來此亞太地區版本的\
+  \ [**RustFest Global**](https://rustfest.global/)。\n\n[RustFest Global](https://rustfest.world/say-hello-rustfest-global-2021)\
+  \ 是一個由世界各地的 Rust 社群組織所共同籌備的一個線上 Rust 研討會以及系列活動。我們希望這次的活動能讓全球的朋友都能夠不論時區地共襄盛舉。\n\n\
+  這次的亞太地區版本目標成為一個能夠提供機會讓亞太地區的社群之間互相學習且共襄盛舉的活動。儘管主要的議程都將與技術演講有關，但非常歡迎您提出任何您認為適合亞太地區觀眾的活動。\n\
+  \n## 歡迎您投稿\n\n不論您身在亞太地區的哪個地方，我們都誠摯地邀請您來投稿。用英語演講將不會是一項要求；RustFest 將會請專業翻譯來將您提供的演講影片做翻譯，所以在活動期間您的演講將會有英語字幕。\n\
+  \n[Call for Papers (CfP) 已正式開跑](https://rustfest.global/cfp/)。我們接受以下幾種語言的演講（其他語言的翻譯者也非常歡迎您；詳見底下\
+  \ FAQ 部分）：\n\n- [日文](https://rustfest.global/ja-jp/cfp/)\n- [簡體中文](https://rustfest.global/zh-cn/cfp/)\n\
+  - [韓文](https://rustfest.global/kr-kr/cfp/)\n- [繁體中文](https://rustfest.global/zh-tw/cfp/)\n\
+  - [西班牙文](https://rustfest.global/es/cfp/)\n- [英文](https://rustfest.global/cfp/#upcoming-events)\n\
+  \n我們也非常歡迎您詳閱我們的[行為準則](https://rustfest.global/code-of-conduct/)、[Accessibility Statement](https://rustfest.global/information/accessibility-statement)以及[其他政策](https://rustfest.global/information/)。\n\
+  \n## FAQ\n\n- **請問我可以買票了嗎？** 就快了！目前票券尚未開始販售，但沒錯，我們將會如往年一樣販售此次活動的折價及免費選項的票券。\n- **請問有任何我可以幫忙的嗎？**\
+  \ 當然！我們永遠歡迎新成員、翻譯、CFP 審稿委員、社群主辦人加入，來協助我們並共同打造更好的活動。歡迎透過[推特私訊](https://twitter.com/rustfest)或是[電子郵件](mailto:team@rustfest.global)。\n\
+  - **我發現網站/部落格/CFP有問題** 煩請透過[推特私訊](https://twitter.com/rustfest)或是[電子郵件](mailto:team@rustfest.global)告知我們。此外，值得一提的是，任何\
+  \ RustFest 相關的網站都還在建構中，所以我們可能隨時都可以修正、更新舊的內容或是上傳新內容。\n- **我對 CFP 有疑問** 我們也非常樂意協助您解決您對投稿的疑問！\
+  \ **請寄電子郵件至 [coaching@rustfest.global](mailto:coaching@rustfest.global)**。\n"
