@@ -167,3 +167,4 @@ f-submit-btn = Submit proposal
 f-submit-confirm-btn = Confirm & submit
 f-cancel-btn = Cancel
 f-submit-error-generic = An error occurred while trying to submit the proposal. Perhaps try again later?
+errmsg-shorter = Please keep the { $fieldname } under 240 characters
