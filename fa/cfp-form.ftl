@@ -13,3 +13,7 @@ f-submission-deadline =
     { "[" }این لینک را برای تاریخ های پایانی برای ارسال ارائه برای رویدادهای پیش‌رو ببینید](
     { $linkUpcomingEvents }
     )
+f-manage-t = بارگذاری و مدیریت پروپوزال ها
+f-manage-auth-btn = ارسال کد
+f-manage-upload-btn = بارگذاری پروپوزال
+f-manage-download-t = دریافت پروپوزال
