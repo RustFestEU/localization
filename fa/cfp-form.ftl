@@ -17,3 +17,70 @@ f-manage-t = بارگذاری و مدیریت پروپوزال ها
 f-manage-auth-btn = ارسال کد
 f-manage-upload-btn = بارگذاری پروپوزال
 f-manage-download-t = دریافت پروپوزال
+f-proposal-audience-beginner-friendly-t = **مقدماتی** -- ارائه‌های فنی مبتدی پسند، مقداری تجربه برنامه نویسی توصیه می شود
+f-proposal-audience-all-audiences-t = **همه افراد** -- بدون نیاز به تجربه برنامه نویسی، یک ارائه برای همه مخاطبان
+f-submission-lang =
+    زبانی را که قرار است فرم ارسال پروپوزال خود را با آن بنویسید انتخاب کنید.
+    
+    با تغییر زبان بالا، زبان دستورالعمل های این صفحه تغییر می کند.
+    ما ارسال‌ها را به زبان‌های موجود می‌پذیریم و همه اعضای کمیته CFP که به آن نیاز دارند، ترجمه‌هایی را برای ارزیابی خود دریافت خواهند کرد.
+    نوشتن پروپوزال ارسالی خود به هر یک از این زبان‌ها *به هیچ وجه* بر شانس شما برای انتخاب شدن برای صحبت *تأثیری نمی‌گذارد*، بنابراین زبانی را انتخاب که فکر می‌کنید با آن راحت‌تر هستید.
+    
+    { "[" }درباره پشتیبانی زبان RustFest Global بیشتر بدانید]({ $linkSupportedLanguages })
+f-contact-email =
+    ما تاییدیه پروپوزال دریافتی‌ را برای شما ارسال خواهیم کرد.
+    تیم ها از ایمیل شما برای تماس با شما برای پیگیری و به روز رسانی در مورد فرآیند انتخاب استفاده می کنند.
+    با احراز هویت با استفاده از این آدرس، می‌توانید وضعیت پروپوزال‌های خود را ویرایش، بررسی و پس بگیرید.
+f-manage-download =
+    در اینجا می توانید پروپوزال خود را به صورت متنی دانلود کنید.
+    اگر بخواهید پیشنهاد خود را بعداً تکمیل و ارسال کنید، ممکن است مفید باشد.
+    
+    توجه داشته باشید که پس از ارسال و تایید ارسال خود در زیر، ما پروپوزال تکمیل شده شما را از طریق ایمیل نیز برای شما ارسال خواهیم کرد.
+f-manage-auth = همچنین می توانید با آدرس ایمیل خود احراز هویت کنید تا موارد ارسالی موجود خود را مدیریت کنید:
+f-manage-download-btn = دانلود پروپوزال
+f-submission-t = ارسال
+f-submission-lang-t = زبان ارسالی خود را انتخاب کنید
+f-submission-presentation-lang-t = زبان ارائه
+f-presentation-format-other = دیگر
+f-submission-presentation-format-t = فرمت ارائه
+f-submission-presentation-format-standard-t = { f-presentation-format-standard } (تا ۲۵ دقیقه)
+f-submission-presentation-format-longform-t = { f-presentation-format-longform } (تا ۵۰ دقیقه)
+f-proposal-t = ارائه
+f-presentation-format-standard = ارائه استاندارد
+f-proposal-title-t = عنوان
+f-submission-presentation-format-other-t = { f-presentation-format-other } (در بخش «یادداشت» توضیح داده شود)
+f-presentation-format-longform = ارائه طولانی
+f-proposal-summary-t = خلاصه
+f-proposal-description-t = توضیحات
+f-proposal-audience-t = مخاطبین
+f-proposal-audience-some-rust-t = ** پایه‌ای Rust ** - مقداری دانش پایه در مورد Rust یا برنامه نویسی سیستمی توصیه می شود
+f-proposal-audience-advanced-rust-t = **پیشرفته Rust** - دانش کامل Rust و/یا برنامه نویسی سیستمی توصیه می شود
+f-proposal-notes-t = یادداشت به برگزار کنندگان ({ -optional })
+f-submitter-t = درباره شما
+f-submitter-name-t = نام
+f-submitter-tagline-t = شعار ({ -optional })
+f-submitter-bio-t = بیوگرافی
+f-proposal-highlight-t = رویداد پیشنهادی
+event-none = همه
+event-none-summary = این پروپوزال باید برای هر یک از رویدادهای آینده مناسب باشد.
+f-submitter-bio =
+    درباره خودتان بیشتر به ما و شرکت کنندگان بگویید. این متن در صفحات جلسه نمایش داده می شود.
+    
+    _{ -note-most-markdown }_  
+    _{ -note-editable }_
+f-submit-status-success-t = پروپوزال دریافت شد!
+f-submit-status-success = از ارسال شما متشکریم، به زودی یک ایمیل تأیید دریافت خواهید کرد.
+f-submit-btn = ثبت پروپوزال
+f-submit-confirm-btn = تایید و ثبت
+f-cancel-btn = لغو
+errmsg-shorter = لطفاً { $fieldname } را کمتر از 240 کاراکتر نگه دارید
+f-contact-t = اطلاعات تماس
+f-contact-email-t = آدرس ایمیل
+f-submit-dialog-t = پروپوزال خود را ثبت کنید
+f-submit-status-sending-verification = آدرس ایمیل خود را تایید کنید…
+f-submit-status-enter-verification-code =
+    ما یک کد عددی منحصر به فرد را به آدرس ایمیل شما ارسال کرده ایم:  
+    __{ $email }__
+    
+    برای ثبت پروپوزال، کد زیر را وارد کنید:
+f-submit-error-generic = هنگام تلاش برای ثبت پروپوزال خطایی روی داد. شاید بعدا دوباره امتحان کنید؟
