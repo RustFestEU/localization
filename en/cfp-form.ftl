@@ -9,6 +9,13 @@
 -note-editable = You will be able to change this before publishing.
 -optional = optional
 
+## Event formatting
+event-date = { $format ->
+  [precise] { DATETIME($date, year: "numeric", month: "long", day: "numeric") }
+  *[other] { DATETIME($date, year: "numeric", month: "long") }
+}
+event-link = [ℹ️]({ $link })
+
 ## CFP form global strings
 
 f-title = RustFest Global 2021 CFP
@@ -19,7 +26,7 @@ f-form-notes = Filling out all fields is required, except for those explicitly m
 f-submission-deadline-t = Submission deadline
 f-submission-deadline =
     Note, the RustFest Global CFP has **no deadline**, the CFP *does not close*, but for your talk to be considered for one of our upcoming events, your submission should generally arrive 3-4 weeks before the event date.
-    
+
     { "[" }See this link for cut-off dates for CFP submissions for upcoming events](
     { $linkUpcomingEvents }
     )
@@ -35,7 +42,7 @@ f-manage-download-t = Download proposal
 f-manage-download =
     Here you can download your proposal in a text format.
     This may come handy if you want to finish and submit your proposal later.
-    
+
     Note that we will also send you your completed proposal via email after you have submitted and confirmed your submission below.
 f-manage-download-btn = Download proposal
 
@@ -45,22 +52,22 @@ f-submission-t = Submission
 f-submission-lang-t = Select the language for your submission
 f-submission-lang =
     Select the language you will be writing your submission in.
-    
+
     Changing the language above changes the language of the instructions on this page.
     We accept submissions in the provided languages and all CFP commitee members who require it will receive translations for their evaluation.
     Writing your submission in any of these languages *will not affect* your chances for being selected to speak in any way, so feel free to choose the language you consider yourself to be most comfortable with.
-    
+
     { "[" }Learn more about RustFest Global’s language support]({ $linkSupportedLanguages })
 f-submission-presentation-lang-t = Presentation language
 f-submission-presentation-lang =
     If you plan to present in { $currentLang } you can leave this field unmodified.
-    
+
     If you would like to present in any other language than your submission, even if it’s not listed above you may let us know here.
     At RustFest we want to make it possible for everyone to present their ideas and showcase their work to the best of their ability, ensuring that these ideas reach a wide audience.
     For this reason we are always happy to host talks in a wide variety of languages, provided that we are able to sufficiently support them (i.e. in the form of subtitling).
-    
+
     Feel free to propose multiple languages here (noting the order of your preference), and if accepted we will reach out to discuss the details.
-    
+
     { "[" }Learn more about RustFest Global’s language support]({ $linkSupportedLanguages })
 f-presentation-format-standard = standard talk
 f-presentation-format-longform = longform talk
@@ -71,7 +78,7 @@ f-submission-presentation-format-longform-t = { f-presentation-format-longform }
 f-submission-presentation-format-other-t = { f-presentation-format-other } (please explain in the “notes” section)
 f-submission-presentation-format =
     We are primarily looking for talks, but if you have an idea for a non-talk contribution, feel free to share and if you convinced us we will be in touch to talk through the details.
-    
+
     We are accepting standard (up to 25-minute) talks, as well as more in-depth “longform” talks for topics that require more time to expose — in this latter case make sure you touch on why your proposed talk requires more time in the proposal or the “notes” section.
 
 ## Proposal detail fields
@@ -82,23 +89,23 @@ f-proposal-summary-t = Summary
 f-proposal-summary =
     A short description or summary of your session.
     You have up to 240 characters to pitch your proposed session, both for the CFP committee and the conference audience.
-    
+
     The { f-proposal-title-t } & { f-proposal-summary-t } are the first things seen by the program selection committee, and will also be displayed in the event schedule listings and social media. These are the most valuable venues for you to leave a good impression for talk selection and, if your proposal is accepted, for the conference attendees as well.
-    
-    _{ -note-some-markdown }_  
+
+    _{ -note-some-markdown }_
     _{ -note-editable }_
 f-proposal-description-t = Description
 f-proposal-description =
     A longer, more detailed description of the proposed session.
-    
+
     For more information on how to structure your proposal, read our published [CFP Guidelines]({ $linkCfpGuidelines }).
-    
-    _{ -note-most-markdown }_  
+
+    _{ -note-most-markdown }_
     _{ -note-editable }_
 f-proposal-audience-t = Audience
 f-proposal-audience =
-    What kind of audience does your session target?  
-    Who will get the most out of your presentation?  
+    What kind of audience does your session target?
+    Who will get the most out of your presentation?
     Please choose an audience type that fits your proposal the best:
 f-proposal-audience-beginner-friendly-t = **Introductory** -- beginner-friendly technical talks, some programming experience is recommended
 f-proposal-audience-some-rust-t = **Basic Rust** -- some baseline knowledge of Rust or systems programming is recommended
@@ -107,7 +114,7 @@ f-proposal-audience-all-audiences-t = **Everyone** -- no programming experience 
 f-proposal-notes-t = Notes to the organizers ({ -optional })
 f-proposal-notes =
     Here you may leave notes or remarks for the organizers and the selection committee.
-    
+
     _{ -note-most-markdown }_
 
 ## Submitter information fields
@@ -116,29 +123,29 @@ f-submitter-t = About you
 f-submitter-name-t = Name
 f-submitter-tagline-t = Tagline ({ -optional })
 f-submitter-tagline =
-    Title, tagline or organizational affiliation.  
-    Here you may give a shoutout to your employer --- especially if they supported you during the preparation for your session --- or choose your own tagline or shoutout.  
+    Title, tagline or organizational affiliation.
+    Here you may give a shoutout to your employer --- especially if they supported you during the preparation for your session --- or choose your own tagline or shoutout.
     Some examples:
-    
+
     - *“Software Engineer at Crab Corp.”*
     - *“Rust Compiler Magician”*
     - *“Embedded Rust Engineer, available for contract work”*
-    
+
     Be sure to keep it short & sweet, as we will show this everywhere on the session info pages and on social media!
-    
-    _{ -note-no-markdown }_  
+
+    _{ -note-no-markdown }_
     _{ -note-editable }_
 f-submitter-bio-t = Bio
 f-submitter-bio =
     Tell us & the attendees more about yourself. This will be displayed on the session pages.
-    
-    _{ -note-most-markdown }_  
+
+    _{ -note-most-markdown }_
     _{ -note-editable }_
 f-proposal-highlight-t = Suggested Event
 f-proposal-highlight =
     If you believe your proposal would be a great fit for an upcoming event, here you may highlight it for the organizers of that event.
     This may be useful when your proposal is better suited for certain events over others.
-    
+
     Note that _this is just a recommendation_. Regardless of your selection below, all teams will have access to your proposal and may choose to include it in their program. If you have no preference just leave this on the default value.
 event-none = All
 event-none-summary = This proposal should be a great fit for any of the upcoming events.
@@ -157,9 +164,9 @@ f-contact-email =
 f-submit-dialog-t = Submit your proposal
 f-submit-status-sending-verification = Verifying your email address…
 f-submit-status-enter-verification-code =
-    We have sent a unique numeric code to your email address:  
+    We have sent a unique numeric code to your email address:
     __{ $email }__
-    
+
     Type in the code below to submit your proposal:
 f-submit-status-success-t = Proposal received!
 f-submit-status-success = Thank you for your submission, you should receive an email confirmation shortly.
