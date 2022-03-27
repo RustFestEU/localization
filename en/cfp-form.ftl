@@ -18,7 +18,7 @@ event-link = [ℹ️]({ $link })
 
 ## CFP form global strings
 
-f-title = RustFest Global 2021 CFP
+f-title = RustFest Global Proposal Submission
 f-form-notes = Filling out all fields is required, except for those explicitly marked as "optional".
 
 ## Submission deadline
